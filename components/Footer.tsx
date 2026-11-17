@@ -1,3 +1,4 @@
+import { CiteThisPage } from '../citation/CiteThisPage';
 import React from 'react';
 
 const Footer: React.FC = () => {
@@ -7,6 +8,7 @@ const Footer: React.FC = () => {
         <p className="mb-2">history.semanticmachines.fyi</p>
         <p>© {new Date().getFullYear()} Eras of AI History: An Exploration</p>
       </div>
+      <CiteThisPage />
     </footer>
   );
 };
